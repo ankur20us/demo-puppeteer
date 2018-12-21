@@ -1,0 +1,28 @@
+{
+  "author": "AV",
+  "bugs": {
+    "url": "https://github.com/ankur20us/demo-puppeteer/issues"
+  },
+  "description": "This is a basic demo to use the Puppeteer.",
+  "homepage": "https://github.com/ankur20us/demo-puppeteer#readme",
+  "keywords": [
+    "Puppeteer",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "demo-puppeteer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankur20us/demo-puppeteer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "handlebars": "^4.0.12",
+    "puppeteer": "^1.11.0"
+  }
+}
