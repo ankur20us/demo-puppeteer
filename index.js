@@ -39,7 +39,8 @@ const generatePDFByteArray = async ({
          */
         await page.setContent(content);
         /***
-         * Telling chrome to emulate screen i.e how the page looks if it would have been rendered in the normal browser.
+         * Telling chrome to emulate screen i.e how the page looks if 
+         * it would have been rendered in the normal browser.
          */
         await page.emulateMedia('screen');
         /***
@@ -62,7 +63,8 @@ const generatePDFByteArray = async ({
 
         const buffer = Buffer.from(byteArray, 'binary');
         /**
-         * We don't need the acknowledgement of this call that is the reason we are not waiting for this call to return.
+         * We don't need the acknowledgement of this call that is the 
+         * reason we are not waiting for this call to return.
          */
         browser.close();
 
@@ -74,7 +76,8 @@ const generatePDFByteArray = async ({
 
 (async () => {
     /***
-     * The value being passed to the template for handlebar to compile the template and give the html string.
+     * The value being passed to the template for handlebar to 
+     * compile the template and give the html string.
      */
     let data = { message: "This is a test message" };
     let fileName = 'temp.pdf';
@@ -90,4 +93,3 @@ const generatePDFByteArray = async ({
 
     console.log('Please check the ', fileName);
 })();
-
