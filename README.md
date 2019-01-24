@@ -8,3 +8,5 @@ Steps:
 - npm install
 - node index.js
   - This will generate a PDF named **temp.pdf** in the folder and the content is same that we have configured in **template.hbs**
+- In case you are getting issues for installing the puppeteer
+  - sudo npm install -g puppeteer --unsafe-perm=true --allow-root 
