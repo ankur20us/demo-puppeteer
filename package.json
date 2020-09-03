@@ -23,6 +23,6 @@
   "dependencies": {
     "fs-extra": "^7.0.1",
     "handlebars": "^4.0.12",
-    "puppeteer": "^1.11.0"
+    "puppeteer": "^1.13.0"
   }
 }
